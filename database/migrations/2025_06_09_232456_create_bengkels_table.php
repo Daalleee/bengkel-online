@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('address');
             $table->decimal('latitude', 10, 8);
-            $table->decimal('longtude', 11, 8);
+            $table->decimal('longitude', 11, 8);
             $table->text('description')->nullable();
             $table->time('opening_time')->nullable();
             $table->time('closing_time')->nullable();
